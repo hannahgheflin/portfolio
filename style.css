@@ -1,5 +1,8 @@
-#navbar {
-  position = sticky;
-  top = 0;
-  background-color = #8A9A5B;
+.header {
+  padding-left: 120px;
+  padding-top: 50px;
+  text-align:center;
+  background:#8A9A5B;
+  color:white;
+  font-size:larger;
 }
