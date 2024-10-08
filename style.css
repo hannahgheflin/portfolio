@@ -1,8 +1,77 @@
+.body {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
 .header {
-  padding-left: 120px;
-  padding-top: 50px;
-  text-align:center;
-  background:#8A9A5B;
+  position: sticky;
+  background-color: darkolivegreen;
   color:white;
   font-size:larger;
+  padding-top:30px;
+  padding-bottom:20px;
+}
+
+.header .h1 {
+  float:left;
+  font-size:16px;
+  color:white;
+  margin-left:15px;
+  text-align:center;
+  text-decoration:none;
+}
+
+.dropdown {
+  float:left;
+  overflow:hidden;
+  position:left;
+}
+
+.dropdown .dropbtn {
+  font-size:16px;
+  border:none;
+  outline:none;
+  color:white;
+  padding:15px;
+  background-color:inherit;
+  margin:0;
+  font-family:inherit;
+}
+
+.dropdown-content {
+  display:none;
+  position:absolute;
+  z-index:1;
+}
+
+.dropdown-content a {
+  float:none;
+  color:white;
+  padding:16px;
+  text-decoration:none;
+  display:block;
+  text-align:left;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+.block {
+  background-color: darkolivegreen;
+  height:300px;
+  width:70%;
+  margin:auto;
+  margin-top:50px;
+  position:center;
+}
+
+.footer {
+  background-color:darkolivegreen;
+  color:white;
+  margin-top:50px;
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:30px;
 }
